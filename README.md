@@ -121,12 +121,25 @@ The `posts` table includes:
 
 ## 🚢 Deployment to Vercel
 
-1. Push your code to GitHub
-2. Import your repository in [Vercel](https://vercel.com)
-3. Add environment variables:
-   - `NEXT_PUBLIC_SUPABASE_URL`
-   - `NEXT_PUBLIC_SUPABASE_ANON_KEY`
-4. Deploy!
+1. Push your code to GitHub:
+   ```bash
+   git add .
+   git commit -m "Initial commit"
+   git push origin main
+   ```
+
+2. Go to [Vercel](https://vercel.com) and click **"Add New Project"**
+
+3. Import your GitHub repository (Vercel will auto-detect Next.js)
+
+4. **Add Environment Variables** in Vercel Dashboard → Settings → Environment Variables:
+   - **NEXT_PUBLIC_SUPABASE_URL**: `https://svdmgfspuyrcuabrvikv.supabase.co`
+   - **NEXT_PUBLIC_SUPABASE_ANON_KEY**: `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN2ZG1nZnNwdXlyY3VhYnJ2aWt2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjIwOTI4NTksImV4cCI6MjA3NzY2ODg1OX0.8QTuKHUdbRv8k8wOJprFnznI9Jrn3oxjdR3f6i8P524`
+   - Select all environments (Production, Preview, Development)
+
+5. Click **"Deploy"**!
+
+**📋 See `VERCEL_DEPLOY.md` for detailed step-by-step instructions.**
 
 ## 📝 Usage
 
