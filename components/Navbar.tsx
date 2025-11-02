@@ -7,7 +7,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <Link href="/" className="text-2xl font-bold text-crypto-blue-light hover:text-blue-400 transition">
-              CryptoBlog
+              CryptoHawke
             </Link>
           </div>
           <div className="hidden md:block">

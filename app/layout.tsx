@@ -5,7 +5,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'CryptoBlog - Latest Cryptocurrency News & Insights',
+  title: 'CryptoHawke - Latest Cryptocurrency News & Insights',
   description: 'Stay updated with the latest cryptocurrency news, trading tips, DeFi insights, and more.',
 }
 

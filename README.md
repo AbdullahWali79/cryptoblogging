@@ -1,4 +1,4 @@
-# CryptoBlog - Full-Stack Cryptocurrency Blogging Platform
+# CryptoHawke - Full-Stack Cryptocurrency Blogging Platform
 
 A modern, full-stack cryptocurrency blogging website built with Next.js 14 (App Router), Supabase, and Tailwind CSS. Features a WordPress-style admin panel for content management.
 
