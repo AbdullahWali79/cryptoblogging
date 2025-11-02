@@ -1,6 +1,16 @@
-Vercel Environment Variables - Copy & Paste Instructions
+Vercel Environment Variables - Import Options
 =========================================================
 
+OPTION 1: Import .env File (RECOMMENDED)
+-----------------------------------------
+1. Use the file: .env.production
+2. In Vercel "New Project" page → Environment Variables section
+3. Click "Import .env" button
+4. Select the .env.production file
+5. All variables will be imported automatically!
+
+OPTION 2: Copy & Paste
+-----------------------------------------
 Go to Vercel Dashboard → Your Project → Settings → Environment Variables
 
 Add these TWO variables one by one:
