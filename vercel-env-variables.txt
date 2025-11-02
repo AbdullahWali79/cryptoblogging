@@ -1,0 +1,33 @@
+Vercel Environment Variables - Copy & Paste Instructions
+=========================================================
+
+Go to Vercel Dashboard → Your Project → Settings → Environment Variables
+
+Add these TWO variables one by one:
+
+─────────────────────────────────────────────────────────────
+VARIABLE 1:
+─────────────────────────────────────────────────────────────
+Key: NEXT_PUBLIC_SUPABASE_URL
+Value: https://svdmgfspuyrcuabrvikv.supabase.co
+Environments: ☑ Production ☑ Preview ☑ Development
+
+─────────────────────────────────────────────────────────────
+VARIABLE 2:
+─────────────────────────────────────────────────────────────
+Key: NEXT_PUBLIC_SUPABASE_ANON_KEY
+Value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN2ZG1nZnNwdXlyY3VhYnJ2aWt2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjIwOTI4NTksImV4cCI6MjA3NzY2ODg1OX0.8QTuKHUdbRv8k8wOJprFnznI9Jrn3oxjdR3f6i8P524
+Environments: ☑ Production ☑ Preview ☑ Development
+
+─────────────────────────────────────────────────────────────
+
+IMPORTANT NOTES:
+- Vercel does NOT support importing .env files directly
+- You must manually add each variable in the Vercel dashboard
+- After adding, click "Save" and redeploy your project
+- All three environments (Production, Preview, Development) should be selected
+
+Admin Login Credentials:
+Email: admin@admin.com
+Password: admin
+
